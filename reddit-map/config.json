@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "sd"
+  },
+  "text": {
+    "more": "<h2>Map of Reddit</h2><br><p>Have you ever wondered what subreddits you don't know exist on reddit? This map attempts to pull back the veil on the underlying structure of those communities and provide a map that users can visually explore. Search your favorite subreddit in the search bar and find out what other subreddits its connected to.  If you have questions, feedback, etc. pertaining to the site, shoot me an email at <a href=\"mailto:mapofreddit@gmail.com\">mapofreddit@gmail.com</a> <br><br> Map of Reddit is and always will be a free service with no advertisements.  If you have found this service useful and would like to support this content, please consider donating.   </p><br><p>This website is powered by <a href=\"http:\/\/sigmajs.org\/\"> sigma.js</a> using the template provided by <a href=\"http:\/\/www.oii.ox.ac.uk\/\"> OII/JISC</a>.</p>",
+    "intro": "Discover the communities of Reddit.  The distance between two subreddits is proportional to how likely it is that a redditor would contribute to both subreddits.  The closer the two subreddits the higher the likelihood they share the same audience.   The colored clusters are collections of subreddits that best fit their audience e.g. a subreddit about bugs might be next to a subreddit about plants in the same cluster.  Zoom in on a cluster to see what topics it pertains to.  Click on a node to read more about the subreddit and see its connected neighbors.  Search for your favorite subreddit in the search bar below.",
+    "title": "<br><br> &nbsp;&nbsp; Map of Reddit <br><br>"
+  },
+  "legend": {
+    "edgeLabel": "Audience Overlap",
+    "colorLabel": "Topic",
+    "nodeLabel": "Subreddit"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Id"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#000",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#fff",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 7,
+      "minEdgeSize": 3,
+      "minNodeSize": 2,
+      "maxNodeSize": 20
+    },
+    "mouseProperties": {
+      "maxRatio": 35,
+      "minRatio": 1
+    }
+  }
+}

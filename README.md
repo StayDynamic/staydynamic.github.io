@@ -1,1 +1,0 @@
-# staydynamic.github.io
